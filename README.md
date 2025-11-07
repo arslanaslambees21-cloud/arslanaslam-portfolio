@@ -84,10 +84,60 @@ Understood the complete **bottle-to-flake preparation** process before fiber pro
 **🧠 Learning Outcome:**
 Developed practical understanding of **electrical drives, automation, PLC control, and sensor-based systems** used in industrial machinery.
 Gained experience in **troubleshooting, calibration, and electrical safety**.
+# Day 4 Progress Report
+
+## 1. Learning Activity – Forward & Reverse Contactor Circuit
+
+Today I studied and practiced the **Forward and Reverse Contactor Control Circuit**, which is used to change the rotation direction of a three-phase motor.
+
+### **a) Forward Operation**
+
+* Contactor **K1** energizes to run the motor in forward direction.
+* Used **NO (13–14)** contact for self-holding.
+* Understood the control path: **S1 → S2 → K2 (NC) → K1 coil**.
+
+### **b) Reverse Operation**
+
+* Contactor **K2** energizes to run the motor in reverse direction.
+* Used **NO (13–14)** contact for holding.
+* Understood the path: **S1 → S3 → K1 (NC) → K2 coil**.
+
+### **c) Electrical Interlocking**
+
+* **K2 NC** contact is placed in the Forward line.
+* **K1 NC** contact is placed in the Reverse line.
+* Prevents both contactors from energizing at the same time, protecting against phase short-circuit.
+
+### **d) Circuit Drawing**
+
+* I created a hand-drawn control wiring diagram.
+* Corrected the NC contact positions to ensure safe and correct operation.
 
 ---
 
-### **Overall Week 1 Summary**
+## 2. Maintenance Activity – CPF Sleeve Ultrasonic Machine
 
-During the first week, I observed and learned about **each stage of PET recycling**, from bottle feeding to final bale formation. I developed a foundational understanding of **industrial process flow, automation, and electrical systems** used in modern recycling plants. This week strengthened my awareness of **how electrical engineering supports continuous industrial production.**
+### **Issue Reported:**
+
+The **CPF Sleeve Ultrasonic machine** was not showing temperature and the heating section was not working.
+
+### **Action Taken:**
+
+* Visited the machine area with **Technician Uzair**.
+* Checked temperature controller, power supply, heating module, and sensor wiring.
+* Found the **temperature sensor connection loose**, causing no temperature reading.
+* Reconnected the wiring and reset the controller.
+
+### **Result:**
+
+* Temperature reading restored.
+* Heating and ultrasonic function working normally.
+* Machine handed over in proper working condition.
+
+---
+
+
+Overall Week 1 Summary
+
+During the first week, I observed and learned about each stage of PET recycling, from bottle feeding to final bale formation. I developed a foundational understanding of industrial process flow, automation, and electrical systems used in modern recycling plants. This week strengthened my awareness of how electrical engineering supports continuous industrial production.
 
